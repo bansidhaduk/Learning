@@ -4,8 +4,7 @@ package com.javaBasics;
 import java.util.Scanner;
 
 public class E12 {
-    public static void main(String args[])
-    {
+    public static void main(String[] args) {
         boolean isPrime = true;
 
         Scanner input = new Scanner(System.in);
