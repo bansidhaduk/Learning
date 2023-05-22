@@ -9,7 +9,7 @@ public class E08 {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter character: ");
+        System.out.print("Enter color code to get the color: ");
         char colorCode = input.next().charAt(0);
 
 
@@ -34,6 +34,9 @@ public class E08 {
                 break;
             default:
                 System.out.println("Invalid Code");
+
+
+            input.close();
         }
     }
 }

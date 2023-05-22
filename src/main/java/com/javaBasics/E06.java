@@ -8,8 +8,7 @@
 package com.javaBasics;
 
 public class E06 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         String Gender = args[0];
         int age = Integer.parseInt(args[1]);
 

@@ -16,5 +16,7 @@ public class E01 {
             System.out.println(number + " is negative number.");
         else
             System.out.println(number + " is a zero.");
+
+        input.close();
     }
 }

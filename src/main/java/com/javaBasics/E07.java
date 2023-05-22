@@ -5,8 +5,7 @@ package com.javaBasics;
 import java.util.Scanner;
 
 public class E07 {
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter character: ");
         char inputChar = input.next().charAt(0);
@@ -19,5 +18,6 @@ public class E07 {
 
         System.out.println(inputChar + "->" + outputChar);
 
+        input.close();
     }
 }

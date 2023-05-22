@@ -18,5 +18,7 @@ public class E05 {
             System.out.print("Digit");
         else
             System.out.print("Special Character");
+
+        input.close();
     }
 }

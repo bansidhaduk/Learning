@@ -14,5 +14,7 @@ public class E02 {
             System.out.println(number + " is even number.");
         else
             System.out.println(number + " is odd number.");
+
+        input.close();
     }
 }

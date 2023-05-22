@@ -6,8 +6,7 @@ package com.javaBasics;
 import java.util.Scanner;
 
 public class E04 {
-    public static void main (String[] args)
-    {
+    public static void main (String[] args) {
         // char char1 = 'a';
         //  char2 = 'b';
         Scanner input = new Scanner(System.in);
@@ -20,5 +19,7 @@ public class E04 {
             System.out.println(char2 + " , " + char1);
         else
             System.out.println(char1 + " , " + char2);
+
+        input.close();
     }
 }
